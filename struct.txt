@@ -1,0 +1,10 @@
+blog-app/
+├── models/           # Holds Mongoose schemas
+│   └── Post.js       # Our Post schema file
+├── routes/           # Holds route handlers
+│   └── postRoutes.js # Route logic for creating and viewing posts
+├── views/            # EJS templates for displaying pages
+│   └── index.ejs     # Main page template
+├── public/           # Static files (CSS, images, etc.)
+├── app.js            # Main entry file for the backend server
+└── package.json      # Project dependencies and config
